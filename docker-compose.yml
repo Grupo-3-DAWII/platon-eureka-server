@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: platon-eureka
+    restart: unless-stopped
+    ports:
+      - "8761:8761"
